@@ -1,0 +1,15 @@
+
+;SWAPPING
+
+LDA 5000;
+MOV B, A;
+LDA 5001;
+ADD B;
+MOV C, A;
+SUB B;
+MOV B, A;
+STA 5000;
+MOV A, C;
+SUB B;
+STA 5001;
+hlt
