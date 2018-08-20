@@ -1,0 +1,12 @@
+adc - add with carry
+sbb - sub with borrow
+
+Instruction Set 8085
+1. 246 instructions
+2. represented by 8-bit binary value known as opcode or instruction byte
+
+MOV Rd, Rs
+    M, Rs
+    Rd, M
+
+H, L => Memory address storage/pointer
