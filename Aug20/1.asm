@@ -1,4 +1,5 @@
 ;16-bit addition
+;25A0H + 4815H = 6DB5H
 
 lda 2001
 mov b,a
