@@ -1,0 +1,11 @@
+;h-1,l-0 
+lda 2000
+MOV B, A
+ANI 0F
+STA 2004
+MOV A, B
+ANI 0F
+RLC
+STA 2005
+
+hlt
