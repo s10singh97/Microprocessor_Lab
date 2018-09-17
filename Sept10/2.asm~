@@ -1,7 +1,7 @@
 
 ;ASCII to Hex
 
-MVI a,30h
+MVI a,43h
 
 mvi d,30H
 mvi e,37H
