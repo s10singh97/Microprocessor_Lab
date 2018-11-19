@@ -19,4 +19,5 @@ add e
 dcr d
 jmp loop
 stop: add c
+sta 0000h
 hlt
